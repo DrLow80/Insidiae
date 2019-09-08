@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\Insidiae\Insidiae.ViewModel\bin\Debug\Insidiae.ViewModel.dll
+C:\Users\admin\source\repos\Insidiae\Insidiae.ViewModel\bin\Debug\Insidiae.ViewModel.pdb
+C:\Users\admin\source\repos\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csproj.Fody.CopyLocal.cache
+C:\Users\admin\source\repos\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.dll
+C:\Users\admin\source\repos\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.pdb
+E:\Video\Insidiae\Insidiae.ViewModel\bin\Debug\Insidiae.ViewModel.dll
+E:\Video\Insidiae\Insidiae.ViewModel\bin\Debug\Insidiae.ViewModel.pdb
+E:\Video\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csprojAssemblyReference.cache
+E:\Video\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csproj.CoreCompileInputs.cache
+E:\Video\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csproj.Fody.CopyLocal.cache
+E:\Video\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.dll
+E:\Video\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.pdb

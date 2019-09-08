@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="Insidiae.AdventureFeature.Views.AdventureHostView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:views="clr-namespace:Insidiae.AdventureFeature.Views"
+             xmlns:local="clr-namespace:Insidiae.AdventureFeature"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <local:ViewModelLocator x:Key="ViewModelLocator"/>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <Binding Path="AdventureHostViewModel"
+                 Source="{StaticResource ViewModelLocator}" />
+    </UserControl.DataContext>
+    <ContentControl Content="{Binding CurrentViewModel}">
+        <ContentControl.Resources>
+            <DataTemplate DataType="{x:Type views:AdventureListViewModel}">
+                <views:AdventureListView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type views:AdventureViewModel}">
+                <views:AdventureView />
+            </DataTemplate>
+        </ContentControl.Resources>
+    </ContentControl>
+</UserControl>

@@ -1,0 +1,40 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Insidiae.AdventureFeature"
+             xmlns:views="clr-namespace:Insidiae.AdventureFeature.Views"
+             xmlns:Interactions="http://schemas.microsoft.com/xaml/behaviors" 
+             x:Class="Insidiae.AdventureFeature.Views.AdventureListView"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" 
+             d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:ViewModelLocator x:Key="ViewModelLocator"/>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <Binding Source="{StaticResource ViewModelLocator}"
+                 Path="AdventureListViewModel"/>
+    </UserControl.DataContext>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Add"/>
+        </Menu>
+        <ListView ItemsSource="{Binding Adventures}"
+                  SelectedItem="{Binding Source={StaticResource ViewModelLocator}, Path=AdventureViewModel.Adventure}">
+            <ListView.ItemTemplate>
+                <DataTemplate DataType="{x:Type views:Adventure}">
+                    <TextBlock Text="{Binding AdventureTitle}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <Interactions:Interaction.Triggers>
+                <Interactions:EventTrigger EventName="MouseDoubleClick">
+                    <Interactions:InvokeCommandAction
+                        Command="{Binding Source={StaticResource ViewModelLocator}, Path=AdventureHostViewModel.NavigateCommand}"
+                        CommandParameter="{Binding Source={StaticResource ViewModelLocator}, Path=AdventureViewModel}"/>
+                </Interactions:EventTrigger>
+            </Interactions:Interaction.Triggers>
+        </ListView>
+    </DockPanel>
+</UserControl>
