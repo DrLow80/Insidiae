@@ -12,3 +12,10 @@ E:\Video\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csproj.CoreCom
 E:\Video\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csproj.Fody.CopyLocal.cache
 E:\Video\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.dll
 E:\Video\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.pdb
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.ViewModel\bin\Debug\Insidiae.ViewModel.dll
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.ViewModel\bin\Debug\Insidiae.ViewModel.pdb
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csprojAssemblyReference.cache
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.csproj.Fody.CopyLocal.cache
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.dll
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.ViewModel\obj\Debug\Insidiae.ViewModel.pdb

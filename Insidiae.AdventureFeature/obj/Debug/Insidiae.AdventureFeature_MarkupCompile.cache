@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\Video\Insidiae\Insidiae.AdventureFeature\obj\Debug\
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\
 Insidiae.AdventureFeature
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 3511711670
 11187317606
 8-1399650873
-19-359267975
+19807011993
 Views\AdventureHostView.xaml;Views\AdventureListView.xaml;Views\AdventureView.xaml;
 
 False
