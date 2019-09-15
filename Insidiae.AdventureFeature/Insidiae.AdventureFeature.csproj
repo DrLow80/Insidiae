@@ -66,10 +66,25 @@
     </Compile>
     <Compile Include="Views\AdventureListViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\AdventureOutlineControl.xaml.cs">
+      <DependentUpon>AdventureOutlineControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\AdventureView.xaml.cs">
       <DependentUpon>AdventureView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\AdventureViewModel.cs" />
+    <Compile Include="Views\MilieuEventsControl.xaml.cs">
+      <DependentUpon>MilieuEventsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MonstersControl.xaml.cs">
+      <DependentUpon>MonstersControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NonPlayerCharactersControl.xaml.cs">
+      <DependentUpon>NonPlayerCharactersControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlotPointsControl.xaml.cs">
+      <DependentUpon>PlotPointsControl.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Insidiae.DependencyInjection\Insidiae.DependencyInjection.csproj">
@@ -96,7 +111,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\AdventureOutlineControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\AdventureView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MilieuEventsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MonstersControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NonPlayerCharactersControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlotPointsControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

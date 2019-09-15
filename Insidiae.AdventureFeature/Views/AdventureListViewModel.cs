@@ -16,6 +16,17 @@ namespace Insidiae.AdventureFeature.Views
 
     public class Adventure
     {
+        public Adventure()
+        {
+            AdventureTheme = "Adventure Theme";
+            AdventureTitle = "Adventure Title";
+            CampaignDate = "Campaign Date";
+            CampaignEpisodeNumber = "Campaign Episode Number";
+            Date = "Date";
+            GameMaster = "Game Master";
+            OriginationLocale = "Origination Locale";
+        }
+
         public string AdventureTitle { get; set; }
 
         public string Date { get; set; }
@@ -29,29 +40,18 @@ namespace Insidiae.AdventureFeature.Views
         public string OriginationLocale { get; set; }
 
         public string AdventureTheme { get; set; }
-
-        public Adventure()
-        {
-            this.AdventureTheme = "Adventure Theme";
-            this.AdventureTitle = "Adventure Title";
-            this.CampaignDate = "Campaign Date";
-            this.CampaignEpisodeNumber = "Campaign Episode Number";
-            this.Date = "Date";
-            this.GameMaster = "Game Master";
-            this.OriginationLocale = "Origination Locale";
-        }
     }
 
     public class Monster
     {
         public Monster()
         {
-            this.Name = "Name";
-            this.Class = "Class";
-            this.Goals = "Goals";
-            this.PrimaryMotivation = "Primary Motivation";
-            this.StoryRole = "Story Role";
-            this.Type = "Type";
+            Name = "Name";
+            Class = "Class";
+            Goals = "Goals";
+            PrimaryMotivation = "Primary Motivation";
+            StoryRole = "Story Role";
+            Type = "Type";
         }
 
         public string Name { get; set; }
@@ -66,14 +66,14 @@ namespace Insidiae.AdventureFeature.Views
     {
         public NonPlayerCharacter()
         {
-            this.Class = "Class";
-            this.Goals = "Goals";
-            this.Name = "Name";
-            this.PrimaryMotivation = "Primary Motivation";
-            this.Race = "Race";
-            this.Sex = "Sex";
-            this.SocialClass = "Social Class";
-            this.StoryRole = "Story Role";
+            Class = "Class";
+            Goals = "Goals";
+            Name = "Name";
+            PrimaryMotivation = "Primary Motivation";
+            Race = "Race";
+            Sex = "Sex";
+            SocialClass = "Social Class";
+            StoryRole = "Story Role";
         }
 
         public string Name { get; set; }
@@ -90,34 +90,35 @@ namespace Insidiae.AdventureFeature.Views
     {
         public MilieuEvent()
         {
-            this.Content = "Content";
+            Content = "Content";
         }
+
         public string Content { get; set; }
     }
 
     public class PlotPoint
     {
+        public PlotPoint()
+        {
+            Act = "Act";
+            IncitingIncident = "Inciting Incident";
+            PrimaryEndpoint = "Primary Endpoint";
+            TurningPoints = new List<TurningPoint> {new TurningPoint(), new TurningPoint(), new TurningPoint()};
+        }
+
         public string Act { get; set; }
         public string IncitingIncident { get; set; }
         public string PrimaryEndpoint { get; set; }
         public ICollection<TurningPoint> TurningPoints { get; set; }
-
-        public PlotPoint()
-        {
-            this.Act = "Act";
-            this.IncitingIncident = "Inciting Incident";
-            this.PrimaryEndpoint = "Primary Endpoint";
-            this.TurningPoints = new List<TurningPoint> { new TurningPoint(), new TurningPoint(), new TurningPoint() };
-        }
     }
 
     public class TurningPoint
     {
-        public string Content { get; set; }
-
         public TurningPoint()
         {
-            this.Content = "Content";
+            Content = "Content";
         }
+
+        public string Content { get; set; }
     }
 }

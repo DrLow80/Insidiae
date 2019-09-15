@@ -3,11 +3,11 @@
 namespace Insidiae.AdventureFeature.Views
 {
     /// <summary>
-    ///     Interaction logic for AdventureListView.xaml
+    ///     Interaction logic for AdventureOutlineControl.xaml
     /// </summary>
-    public partial class AdventureListView : UserControl
+    public partial class AdventureOutlineControl : UserControl
     {
-        public AdventureListView()
+        public AdventureOutlineControl()
         {
             InitializeComponent();
         }

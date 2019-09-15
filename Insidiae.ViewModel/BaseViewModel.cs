@@ -1,7 +1,7 @@
-﻿using Insidiae.Annotations;
-using PropertyChanged;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using Insidiae.Annotations;
+using PropertyChanged;
 
 namespace Insidiae.ViewModel
 {

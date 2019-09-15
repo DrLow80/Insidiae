@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Users\admin\source\repos\Insidiae\Insidiae.AdventureFeature\obj\Debug\
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\
 Insidiae.AdventureFeature
 none
 false
 DEBUG;TRACE
 
-3511711670
+8-1778052264
 11187317606
-91525992991
-19-309558019
-Views\AdventureHostView.xaml;Views\AdventureListView.xaml;Views\AdventureView.xaml;
+14671943424
+19807011993
+Views\AdventureHostView.xaml;Views\AdventureListView.xaml;Views\AdventureOutlineControl.xaml;Views\AdventureView.xaml;Views\MilieuEventsControl.xaml;Views\MonstersControl.xaml;Views\NonPlayerCharactersControl.xaml;Views\PlotPointsControl.xaml;
 
-True
+False
 

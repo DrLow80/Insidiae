@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
 using Insidiae.ViewModel;
 
 namespace Insidiae.AdventureFeature.Views
@@ -21,49 +16,49 @@ namespace Insidiae.AdventureFeature.Views
                 new MilieuEvent()
             };
 
-            this.PresentMilieuEvents = new ObservableCollection<MilieuEvent>
+            PresentMilieuEvents = new ObservableCollection<MilieuEvent>
             {
                 new MilieuEvent(),
                 new MilieuEvent(),
                 new MilieuEvent()
             };
 
-            this.FutureMilieuEvents = new ObservableCollection<MilieuEvent>
+            FutureMilieuEvents = new ObservableCollection<MilieuEvent>
             {
                 new MilieuEvent(),
                 new MilieuEvent(),
                 new MilieuEvent()
             };
 
-            this.MajorNonPlayerCharacters = new ObservableCollection<NonPlayerCharacter>
+            MajorNonPlayerCharacters = new ObservableCollection<NonPlayerCharacter>
             {
                 new NonPlayerCharacter(),
                 new NonPlayerCharacter(),
-                new NonPlayerCharacter(),
+                new NonPlayerCharacter()
             };
 
-            this.MinorNonPlayerCharacters = new ObservableCollection<NonPlayerCharacter>
+            MinorNonPlayerCharacters = new ObservableCollection<NonPlayerCharacter>
             {
                 new NonPlayerCharacter(),
                 new NonPlayerCharacter(),
-                new NonPlayerCharacter(),
+                new NonPlayerCharacter()
             };
 
-            this.MajorMonsters = new ObservableCollection<Monster>
+            MajorMonsters = new ObservableCollection<Monster>
             {
                 new Monster(),
                 new Monster(),
-                new Monster(),
+                new Monster()
             };
 
-            this.MinorMonsters = new ObservableCollection<Monster>
+            MinorMonsters = new ObservableCollection<Monster>
             {
                 new Monster(),
                 new Monster(),
-                new Monster(),
+                new Monster()
             };
 
-            this.PlotPoints=new ObservableCollection<PlotPoint>
+            PlotPoints = new ObservableCollection<PlotPoint>
             {
                 new PlotPoint(),
                 new PlotPoint(),

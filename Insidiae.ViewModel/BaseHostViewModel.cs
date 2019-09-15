@@ -1,6 +1,4 @@
-﻿using System;
-using System.Windows.Input;
-using System.Windows.Markup;
+﻿using System.Windows.Input;
 
 namespace Insidiae.ViewModel
 {

@@ -91,3 +91,13 @@ C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Insi
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Insidiae.AdventureFeature.csproj.CopyComplete
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Insidiae.AdventureFeature.dll
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Insidiae.AdventureFeature.pdb
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\AdventureOutlineControl.g.cs
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\MilieuEventsControl.g.cs
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\NonPlayerCharactersControl.g.cs
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\AdventureOutlineControl.baml
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\MilieuEventsControl.baml
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\NonPlayerCharactersControl.baml
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\MonstersControl.g.cs
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\MonstersControl.baml
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\PlotPointsControl.g.cs
+C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\PlotPointsControl.baml

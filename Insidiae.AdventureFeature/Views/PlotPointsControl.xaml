@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="Insidiae.AdventureFeature.Views.PlotPointsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Insidiae.AdventureFeature.Views"
+             xmlns:adventureFeature="clr-namespace:Insidiae.AdventureFeature"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+    <UserControl.Resources>
+        <adventureFeature:ViewModelLocator x:Key="ViewModelLocator" />
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <Binding Source="{StaticResource ViewModelLocator}" Path="AdventureViewModel" />
+    </UserControl.DataContext>
+    <Grid Grid.Row="4">
+        <Grid.Resources>
+            <DataTemplate DataType="{x:Type local:TurningPoint}">
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Content" />
+                        <TextBox Text="{Binding Content}" />
+                    </StackPanel>
+                </Grid>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type local:PlotPoint}">
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Act" />
+                        <TextBox Text="{Binding Act}" />
+                        <TextBlock Text="Inciting Incident" />
+                        <TextBox Text="{Binding IncitingIncident}" />
+                        <TextBlock Text="Primary Endpoint" />
+                        <TextBox Text="{Binding IncitingIncident}" />
+                        <ListView ItemsSource="{Binding TurningPoints}" />
+
+                    </StackPanel>
+                </Grid>
+            </DataTemplate>
+        </Grid.Resources>
+        <StackPanel>
+            <TextBlock Text="Plot Points" />
+            <ListView ItemsSource="{Binding PlotPoints}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

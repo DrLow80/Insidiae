@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-3511711670
+8-1778052264
 11187317606
-8-1399650873
+131252637799
 19807011993
-Views\AdventureHostView.xaml;Views\AdventureListView.xaml;Views\AdventureView.xaml;
+Views\AdventureHostView.xaml;Views\AdventureListView.xaml;Views\AdventureOutlineControl.xaml;Views\AdventureView.xaml;Views\MilieuEventsControl.xaml;Views\MonstersControl.xaml;Views\NonPlayerCharactersControl.xaml;Views\PlotPointsControl.xaml;
 
 False
 
