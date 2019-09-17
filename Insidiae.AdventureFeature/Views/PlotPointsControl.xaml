@@ -14,27 +14,31 @@
     <UserControl.DataContext>
         <Binding Source="{StaticResource ViewModelLocator}" Path="AdventureViewModel" />
     </UserControl.DataContext>
-    <Grid Grid.Row="4">
+    <Grid>
         <Grid.Resources>
             <DataTemplate DataType="{x:Type local:TurningPoint}">
                 <Grid>
                     <StackPanel>
-                        <TextBlock Text="Content" />
-                        <TextBox Text="{Binding Content}" />
+                        <TextBlock Text="{Binding Content}" />
                     </StackPanel>
                 </Grid>
             </DataTemplate>
             <DataTemplate DataType="{x:Type local:PlotPoint}">
                 <Grid>
                     <StackPanel>
-                        <TextBlock Text="Act" />
-                        <TextBox Text="{Binding Act}" />
-                        <TextBlock Text="Inciting Incident" />
-                        <TextBox Text="{Binding IncitingIncident}" />
-                        <TextBlock Text="Primary Endpoint" />
-                        <TextBox Text="{Binding IncitingIncident}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Act" />
+                            <TextBlock Text="{Binding Act}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Inciting Incident" />
+                            <TextBlock Text="{Binding IncitingIncident}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Primary Endpoint" />
+                            <TextBlock Text="{Binding IncitingIncident}" />
+                        </StackPanel>
                         <ListView ItemsSource="{Binding TurningPoints}" />
-
                     </StackPanel>
                 </Grid>
             </DataTemplate>

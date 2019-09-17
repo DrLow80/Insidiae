@@ -62,7 +62,7 @@ namespace Insidiae.AdventureFeature.Views
         public string PrimaryMotivation { get; set; }
     }
 
-    public class NonPlayerCharacter
+    public class NonPlayerCharacter:BaseNameDescription
     {
         public NonPlayerCharacter()
         {
@@ -74,9 +74,9 @@ namespace Insidiae.AdventureFeature.Views
             Sex = "Sex";
             SocialClass = "Social Class";
             StoryRole = "Story Role";
+            Description = "Description";
         }
 
-        public string Name { get; set; }
         public string Race { get; set; }
         public string Sex { get; set; }
         public string Class { get; set; }
@@ -103,7 +103,7 @@ namespace Insidiae.AdventureFeature.Views
             Act = "Act";
             IncitingIncident = "Inciting Incident";
             PrimaryEndpoint = "Primary Endpoint";
-            TurningPoints = new List<TurningPoint> {new TurningPoint(), new TurningPoint(), new TurningPoint()};
+            TurningPoints = new List<TurningPoint> { new TurningPoint(), new TurningPoint(), new TurningPoint() };
         }
 
         public string Act { get; set; }
@@ -121,4 +121,26 @@ namespace Insidiae.AdventureFeature.Views
 
         public string Content { get; set; }
     }
+
+    public abstract class BaseNameDescription
+    {
+        public string Name { get; set; }
+        public string Description { get; set; }
+    }
+
+    public class Goal : BaseNameDescription
+    {
+
+    }
+
+    public class EncounterType : BaseNameDescription
+    {
+
+    }
+
+    public class StoryFunction : BaseNameDescription
+    {
+
+    }
+
 }
