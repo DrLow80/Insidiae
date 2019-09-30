@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:Insidiae.AdventureFeature"
     xmlns:views="clr-namespace:Insidiae.AdventureFeature.Views"
     xmlns:Interactions="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:library="clr-namespace:Insidiae.Library;assembly=Insidiae.Library"
     x:Class="Insidiae.AdventureFeature.Views.AdventureListView"
     mc:Ignorable="d"
     d:DesignHeight="450"
@@ -24,7 +25,7 @@
         <ListView ItemsSource="{Binding Adventures}"
                   SelectedItem="{Binding Source={StaticResource ViewModelLocator}, Path=AdventureViewModel.Adventure}">
             <ListView.ItemTemplate>
-                <DataTemplate DataType="{x:Type views:Adventure}">
+                <DataTemplate DataType="{x:Type library:Adventure}">
                     <TextBlock Text="{Binding AdventureTitle}" />
                 </DataTemplate>
             </ListView.ItemTemplate>

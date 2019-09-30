@@ -73,6 +73,10 @@
       <DependentUpon>AdventureView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\AdventureViewModel.cs" />
+    <Compile Include="Views\EncounterView.xaml.cs">
+      <DependentUpon>EncounterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EncounterViewModel.cs" />
     <Compile Include="Views\MilieuEventsControl.xaml.cs">
       <DependentUpon>MilieuEventsControl.xaml</DependentUpon>
     </Compile>
@@ -85,11 +89,19 @@
     <Compile Include="Views\PlotPointsControl.xaml.cs">
       <DependentUpon>PlotPointsControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\PlotPointView.xaml.cs">
+      <DependentUpon>PlotPointView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlotPointViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Insidiae.DependencyInjection\Insidiae.DependencyInjection.csproj">
       <Project>{AF058AEA-DD16-4A17-8D99-A346E01FB053}</Project>
       <Name>Insidiae.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Insidiae.Library\Insidiae.Library.csproj">
+      <Project>{4788A4C5-D120-4AAD-989A-50E31A1A2825}</Project>
+      <Name>Insidiae.Library</Name>
     </ProjectReference>
     <ProjectReference Include="..\Insidiae.ViewModel\Insidiae.ViewModel.csproj">
       <Project>{C7C3B322-8F98-4A7C-8AED-4ABF40334B33}</Project>
@@ -119,6 +131,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\EncounterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MilieuEventsControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -132,6 +148,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\PlotPointsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlotPointView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

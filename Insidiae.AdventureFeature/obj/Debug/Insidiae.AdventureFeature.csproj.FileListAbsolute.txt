@@ -86,7 +86,6 @@ C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\View
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\AdventureListView.baml
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\AdventureView.baml
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Insidiae.AdventureFeature.g.resources
-C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Insidiae.AdventureFeature.csproj.CoreCompileInputs.cache
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Insidiae.AdventureFeature.csproj.Fody.CopyLocal.cache
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Insidiae.AdventureFeature.csproj.CopyComplete
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Insidiae.AdventureFeature.dll
@@ -101,3 +100,9 @@ C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\View
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\MonstersControl.baml
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\PlotPointsControl.g.cs
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\PlotPointsControl.baml
+C:\Users\Matt\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\EncounterView.g.cs
+C:\Users\Matt\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\PlotPointView.g.cs
+C:\Users\Matt\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\EncounterView.baml
+C:\Users\Matt\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\obj\Debug\Views\PlotPointView.baml
+C:\Users\Matt\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\bin\Debug\Insidiae.Library.dll
+C:\Users\Matt\Documents\GitHub\Insidiae\Insidiae.AdventureFeature\bin\Debug\Insidiae.Library.pdb

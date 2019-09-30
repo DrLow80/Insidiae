@@ -36,7 +36,6 @@ C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.DependencyInjection\bin\Debug\S
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.DependencyInjection\bin\Debug\Spring.Core.Configuration.pdb
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.DependencyInjection\bin\Debug\Spring.Core.Configuration.xml
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.DependencyInjection\obj\Debug\Insidiae.DependencyInjection.csprojAssemblyReference.cache
-C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.DependencyInjection\obj\Debug\Insidiae.DependencyInjection.csproj.CoreCompileInputs.cache
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.DependencyInjection\obj\Debug\Insidiae.DependencyInjection.csproj.CopyComplete
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.DependencyInjection\obj\Debug\Insidiae.DependencyInjection.dll
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.DependencyInjection\obj\Debug\Insidiae.DependencyInjection.pdb

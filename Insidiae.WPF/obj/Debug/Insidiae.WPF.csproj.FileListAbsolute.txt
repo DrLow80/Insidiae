@@ -95,8 +95,9 @@ C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.WPF\obj\Debug\MainWindow.baml
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.WPF\obj\Debug\Insidiae.WPF.g.resources
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.WPF\obj\Debug\Insidiae.WPF.Properties.Resources.resources
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.WPF\obj\Debug\Insidiae.WPF.csproj.GenerateResource.cache
-C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.WPF\obj\Debug\Insidiae.WPF.csproj.CoreCompileInputs.cache
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.WPF\obj\Debug\Insidiae.WPF.csproj.Fody.CopyLocal.cache
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.WPF\obj\Debug\Insidiae.WPF.csproj.CopyComplete
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.WPF\obj\Debug\Insidiae.WPF.exe
 C:\Users\MATT\Documents\GitHub\Insidiae\Insidiae.WPF\obj\Debug\Insidiae.WPF.pdb
+C:\Users\Matt\Documents\GitHub\Insidiae\Insidiae.WPF\bin\Debug\Insidiae.Library.dll
+C:\Users\Matt\Documents\GitHub\Insidiae\Insidiae.WPF\bin\Debug\Insidiae.Library.pdb

@@ -13,5 +13,11 @@ namespace Insidiae.AdventureFeature
 
         public static AdventureViewModel AdventureViewModel =>
             SpringContext.GetObject<AdventureViewModel>(nameof(AdventureViewModel));
+
+        public static EncounterViewModel EncounterViewModel =>
+            SpringContext.GetObject<EncounterViewModel>(nameof(EncounterViewModel));
+
+        public static PlotPointViewModel PlotPointViewModel =>
+            SpringContext.GetObject<PlotPointViewModel>(nameof(PlotPointViewModel));
     }
 }

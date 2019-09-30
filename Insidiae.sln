@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insidiae.ViewModel", "Insid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insidiae.AdventureFeature", "Insidiae.AdventureFeature\Insidiae.AdventureFeature.csproj", "{0519268C-2785-4CC0-86AB-8E00106054A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insidiae.Library", "Insidiae.Library\Insidiae.Library.csproj", "{4788A4C5-D120-4AAD-989A-50E31A1A2825}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0519268C-2785-4CC0-86AB-8E00106054A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0519268C-2785-4CC0-86AB-8E00106054A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0519268C-2785-4CC0-86AB-8E00106054A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4788A4C5-D120-4AAD-989A-50E31A1A2825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4788A4C5-D120-4AAD-989A-50E31A1A2825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4788A4C5-D120-4AAD-989A-50E31A1A2825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4788A4C5-D120-4AAD-989A-50E31A1A2825}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

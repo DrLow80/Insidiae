@@ -21,6 +21,12 @@
             <DataTemplate DataType="{x:Type views:AdventureViewModel}">
                 <views:AdventureView />
             </DataTemplate>
+            <DataTemplate DataType="{x:Type views:PlotPointViewModel}">
+                <views:PlotPointView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type views:EncounterViewModel}">
+                <views:EncounterView />
+            </DataTemplate>
         </ContentControl.Resources>
     </ContentControl>
 </UserControl>

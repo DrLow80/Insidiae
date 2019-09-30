@@ -126,6 +126,10 @@
       <Project>{AF058AEA-DD16-4A17-8D99-A346E01FB053}</Project>
       <Name>Insidiae.DependencyInjection</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Insidiae.Library\Insidiae.Library.csproj">
+      <Project>{4788A4C5-D120-4AAD-989A-50E31A1A2825}</Project>
+      <Name>Insidiae.Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Insidiae.ViewModel\Insidiae.ViewModel.csproj">
       <Project>{C7C3B322-8F98-4A7C-8AED-4ABF40334B33}</Project>
       <Name>Insidiae.ViewModel</Name>
