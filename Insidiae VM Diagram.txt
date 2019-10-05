@@ -1,0 +1,71 @@
+@startuml
+class baseVM
+baseVM : #onPropertyChanged()
+baseVM <|-- baseAdventureVM
+baseVM <|-- baseHostVM
+
+class baseHostVM
+baseHostVM : +current : baseVM
+baseHostVM : +navigate(baseVM)
+baseHostVM <|-- applicationHostVM
+baseHostVM <|-- adventureHostVM
+
+class applicationHostVM
+applicationHostVM : +openAdventures : ICommand
+
+class openAdventuresCommand
+openAdventuresCommand : -applicationHostVM : applicationHostVM
+openAdventuresCommand : -adventureHostVM : adventureHostVM
+openAdventuresCommand : -adventureListVM : adventureListVM
+openAdventuresCommand "1" *-- "1" adventureHostVM
+openAdventuresCommand "1" *-- "1" adventureListVM
+openAdventuresCommand "1" *-- "1" applicationHostVM
+
+class adventureService
+adventureService : +getAdventures() : result<adventure[]>
+adventureService : +save(adventure) : result
+adventureService : +remove(adventure) : result
+adventureService : +create<type>() : result<type>
+I ()- adventureService
+
+class baseAdventureVM
+baseAdventureVM : -adventureService : adventureService
+baseAdventureVM : +selectCommand : ICommand
+baseAdventureVM : +addCommand : ICommand
+baseAdventureVM : +randomCommand : ICommand
+baseAdventureVM "1" o-- "1" adventureService
+baseAdventureVM <|-- adventureListVM
+baseAdventureVM <|-- adventureVM
+
+class adventureHostVM
+adventureHostVM : #onAdventureViewSelected(baseViewModel)
+
+class adventureListVM
+adventureListVM : +adventures : adventureVM[]
+adventureListVM : +load()
+adventureListVM "1" o-- "*" adventureVM
+
+class adventureVM
+adventureVM : +adventure : adventure
+adventureVM : +saveCommand : ICommand
+adventureVM : +milieuEvents : milieuEventVM[]
+adventureVM : +nonPlayerCharacers : nonPlayerCharacerVM[]
+adventureVM : +plotPoints : plotPointVM[]
+adventureVM "1" *-- "1" adventure
+adventureVM "1" o-- "*" milieuEventVM
+adventureVM "1" o-- "*" nonPlayerCharacerVM
+adventureVM "1" o-- "*" plotPointVM
+
+class milieuEventVM
+milieuEventVM : +milieuEvent
+milieuEventVM "1" o-- "*" milieuEvent
+
+class nonPlayerCharacerVM
+nonPlayerCharacerVM : +nonPlayerCharacer
+nonPlayerCharacerVM "1" o-- "*" nonPlayerCharacer
+
+class plotPointVM
+plotPointVM : +plotPoint
+plotPointVM "1" o-- "*" plotPoint
+
+@enduml

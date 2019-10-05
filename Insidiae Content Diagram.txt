@@ -1,0 +1,79 @@
+@startuml
+
+class adventure
+adventure : +adventureOutline : adventureOutline
+adventure : +milieuEvents : milieuEvent[]
+adventure : +nonPlayerCharacers : nonPlayerCharacer[]
+adventure : +monsters : monster[]
+adventure : +plotPoints : plotPoint[]
+adventure "1" *-- "1" outline
+adventure "1" o-- "*" milieuEvent
+adventure "1" o-- "*" nonPlayerCharacer
+adventure "1" o-- "*" monster
+adventure "1" o-- "*" plotPoint
+
+class content
+content : +name : string
+content : +description : string
+content <|-- goal
+content <|-- encounterType
+content <|-- storyFunction
+content <|-- storyRole
+content <|-- motivation
+content <|-- location
+content <|-- outline
+content <|-- milieuEvent
+content <|-- nonPlayerCharacer
+content <|-- trigger
+content <|-- encounter
+
+class goal
+class encounterType
+class storyFunction
+class storyRole
+class motivation
+class location
+class milieuEvent
+class trigger
+
+class outline
+outline : +createdDateTime : dateTime
+outline : +gameMaster : string
+outline : +campaignDate : dateTime
+outline : +episode : int
+outline : +location : location
+outline : +theme : string
+
+class nonPlayerCharacer
+nonPlayerCharacer : +race : string
+nonPlayerCharacer : +sex : string
+nonPlayerCharacer : +class : string
+nonPlayerCharacer : +goals : goal[]
+nonPlayerCharacer : +storyRole : storyRole
+nonPlayerCharacer : +primaryMotivation : motivation
+nonPlayerCharacer "1" o-- "*" goal
+nonPlayerCharacer "1" o-- "1" storyRole
+nonPlayerCharacer "1" o-- "1" motivation
+
+class plotPoint
+plotPoint : +actOrPlot : string
+plotPoint : +incitingIncident : encounter
+plotPoint : +primaryEndPoint : encounter
+plotPoint : +turningPoints : encounter[]
+plotPoint "1" o-- "3...n" encounter
+
+class encounter
+encounter : +encounterType : encounterType
+encounter : +storyFunction : storyFunction
+encounter : +goal : goal
+encounter : +plotElement : string
+encounter : +location : location
+encounter : +boundTriggers : trigger[]
+encounter : +unboundTriggers : trigger[]
+encounter "1" *-- "0...*" trigger
+encounter "1" o-- "1" goal
+encounter "1" o-- "1" encounterType
+encounter "1" o-- "1" storyFunction
+encounter "1" o-- "1" location
+
+@enduml
